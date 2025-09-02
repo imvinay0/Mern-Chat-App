@@ -16,7 +16,7 @@ const app = express();
 app.use(express.json()); // accept JSON
 
 // Test API route
-app.get("/", (req, res) => res.send("API is Running Successfully"));
+// app.get("/", (req, res) => res.send("API is Running Successfully"));
 
 // Routes
 app.use("/api/user", userRoutes);
